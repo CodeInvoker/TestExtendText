@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今天早上7时，里约奥运正式拉开大幕！当你看到这篇文章的时候，也许正沉浸在浓浓的奥运氛围之中。四年一度的奥运会是全人类的盛会，奥运热潮也进一步点燃了全民健身的激情。跑步、打球、游泳……在运动中强身健体、结交朋友、调节心情，运动已经成为了我们生活不可或缺的一部分。别光顾着窝在沙发里看奥运，一起动起来吧！\n 每个人都有各自参与奥运狂欢的方式。有的堪称“狂热型”，花巨资飞越大半个地球，追随奥运的脚步前往里约，在感受火热的奥运现场的同时，也体验浓烈的巴西桑巴热情；有的可谓“工作型”，因为职业的关系，投身奥运赛场，就比如广州日报强大的奥运采访团，正行走在里约的各个奥运场馆，为读者带来新鲜热辣的奥运新闻；有的是“欣赏型”，准备好各种啤酒小食，打开电视或电脑，躺进沙发里。为什么要躺呢？因为时差的原因，里约奥运很多比赛都在北京时间午夜或清晨，正好先睡一觉；有的则属于“参与型”，看完精彩激烈的比赛，自己也忍不住小试身手，约上三五好友，在篮球场足球场羽毛球场痛痛快快地出一身汗……" />
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:text="confirm" />
+
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/confirm"
+        android:layout_alignTop="@id/confirm"
+        android:layout_below="@id/content"
+        android:layout_toRightOf="@id/confirm"
+        android:scaleType="center"
+        android:src="@drawable/open_icon" />
+
+</RelativeLayout>
